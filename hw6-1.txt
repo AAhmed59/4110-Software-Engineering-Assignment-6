@@ -1,0 +1,27 @@
+#Revision 1 BEGIN 2/22/22
+##BEGIN Ashiq Ahmed here 2/22/22
+
+#Variable to hold a string that contains double quotes
+doubleQuote = 'He said "Hey I am merely a student of science."'
+print(doubleQuote)
+
+#Variable to hold a string that has an apostophe
+apostrophe = "That's mine"
+print(apostrophe)
+
+#Variable that holds a string that spans multiple lines
+multiple = ("""Hello
+world
+                """)
+print(multiple)
+
+#Variable that holds a string that is in multiple lines
+#But print out in one line
+single = ("Hello "
+          "World")
+print(single)
+
+#Revision 1 END 2/22/22
+##END Ashiq Ahmed here 2/22/22
+#Zion Worship Cult / Manager: Ram Vuduku /
+#Lead Tech: Riih Eissen / The Zion Project
