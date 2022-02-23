@@ -1,0 +1,35 @@
+#Revision 1 BEGIN 2/22/22
+##BEGIN Ashiq Ahmed here 2/22/22
+
+#Convert a string to an int and multiply it
+stoi = "5"
+print(stoi, "x 5 =", int(stoi) * 5)
+
+#Convert a string to a float and multiply it
+print(stoi, "x 5.5 =", float(stoi) * 5.5)
+
+#Print a string and integer in one line
+string1 = "Hello"
+int1 = 4
+print(string1 + str(int1))
+
+#Ask the user for two numbers
+usernum1 = input("Enter a number: ")
+while (usernum1.isnumeric() != True): #Check if the user entered a valid num
+    usernum1 = input("Enter a number: ")
+usernum2 = input("Enter another number: ")
+while (usernum2.isnumeric() != True):
+    usernum2 = input("Enter another number: ")
+
+#Print multiplication result
+print("The product of", usernum1, "and", usernum2, "is", float(usernum1)*float(usernum2))
+
+#Showcase .find() method call
+string2 = ("Welcome to Night City.")
+x = string2.find("Night")
+print("Night starts at position", x, "in", string2)
+
+#Revision 1 END 2/22/22
+##END Ashiq Ahmed here 2/22/22
+#Zion Worship Cult / Manager: Ram Vuduku /
+#Lead Tech: Riih Eissen / The Zion Project
