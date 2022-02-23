@@ -1,0 +1,27 @@
+#Revision 1 BEGIN 2/22/22
+##BEGIN Ashiq Ahmed here 2/22/22
+
+#Print the length of a string to the user
+length = len("Hello World")
+print("The length of 'Hello World' is", length)
+
+#Concatenate 2 strings
+cc1 = "Hello"
+cc2 = "World"
+cc = cc1 + cc2
+print(cc)
+
+#Concatenate 2 strings with a space between them
+string1 = "Lovely"
+string2 = "Day"
+string3 = string1 + " " + string2
+print(string3)
+
+#Print zinga using slicing
+bazinga = "bazinga"
+print(bazinga[2:7])
+
+#Revision 1 END 2/22/22
+##END Ashiq Ahmed here 2/22/22
+#Zion Worship Cult / Manager: Ram Vuduku /
+#Lead Tech: Riih Eissen / The Zion Project
