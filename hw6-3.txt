@@ -1,0 +1,50 @@
+#Revision 1 BEGIN 2/22/22
+##BEGIN Ashiq Ahmed here 2/22/22
+
+#Print the following strings in all lowercase and uppercase
+an = "Animals"
+ba = "Badgers"
+hbe = "Honey Bee"
+hba = "Honey Badger"
+
+#Print the strings in lowercase
+print(an.lower())
+print(ba.lower())
+print(hbe.lower())
+print(hba.lower())
+
+#Print the strings in uppercase
+print(an.upper())
+print(ba.upper())
+print(hbe.upper())
+print(hba.upper())
+
+#Remove whitespace from strings
+string1 = " Filet Mignon"
+string2 = "Brisket "
+string3 = " Cheeseburger "
+string1 = string1.strip()
+string2 = string2.strip()
+string3 = string3.strip()
+
+#Print the strings after the whitespace has been removed
+print(string1)
+print(string2)
+print(string3)
+
+#Print the results of the startswith function
+string4 = "Becomes"
+string5 = "becomes"
+string6 = "BEAR"
+string7 = "bEautiful"
+
+#Print the results of using the function on the strings
+print(string4, string4.startswith("be"))
+print(string5, string4.startswith("be"))
+print(string6, string4.startswith("be"))
+print(string7, string4.startswith("be"))
+
+#Revision 1 END 2/22/22
+##END Ashiq Ahmed here 2/22/22
+#Zion Worship Cult / Manager: Ram Vuduku /
+#Lead Tech: Riih Eissen / The Zion Project
